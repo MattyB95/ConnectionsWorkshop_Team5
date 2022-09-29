@@ -4,8 +4,4 @@ sources:
       origin:
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["zip://*.jpg::https://zenodo.org/record/7116591/files/oxford_pets.zip"]
-        chunks: {}
-        storage_options: {'anon': True}
-        coerce_shape: [1000, 1000]
-        exif_tags: True
+        urlpath: ["zip://*.jpg::https://zenodo.org/record/7116591/files/oxford_pets.zip?download=1"]
